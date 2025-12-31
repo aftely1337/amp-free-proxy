@@ -2,7 +2,8 @@ version: "3.8"
 
 services:
   amp-free-proxy:
-    build: .
+    image: ghcr.io/aftely1337/amp-free-proxy:latest
+    # build: .  # 本地构建时取消注释
     container_name: amp-free-proxy
     ports:
       - "8318:8318"
